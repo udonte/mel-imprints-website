@@ -26,15 +26,15 @@ const Header = () => {
     <header className={`${isActive ? 'lg:top-0 bg-white shadow-2xl' : 'lg:top-[60px]'} py-6 lg:py-4 fixed w-full transition-all z-10`}>
       <div className='container mx-auto flex justify-between items-center'>
         {/* logo */}
-        <a href="#/">
+        <a href="#/" data-aos='fade-down' data-aos-delay='1000'>
           <img src={logo} alt="" />
         </a>
         {/* nav - initially hidden, show on desktop mode */}
-        <div className='hidden lg:flex'>
+        <div className='hidden lg:flex' data-aos='fade-down' data-aos-delay='1200'>
           <Nav />
         </div>
         {/* cta button - initially hidden, show on desktop */}
-        <button className='btn btn-sm btn-outline hidden lg:flex'>{btnText}</button>
+        <button className='btn btn-sm btn-outline hidden lg:flex' data-aos='fade-down' data-aos-delay='1400'>{btnText}</button>
         {/* mobile nav trigger btn -hidden on desktop */}
         <button
           className='lg:hidden'

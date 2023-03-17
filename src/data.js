@@ -52,6 +52,7 @@ export const hero = {
 
 export const overview = {
   productImg: OverviewProductImg,
+  brandText: 'TRUSTED BY SOME OF THE FASTEST GROWING BRANDS AS THE NO.1 PRINT SHOP IN LAGOS, NIGERIA',
   brands: [
     {
       image: FacebookImg,

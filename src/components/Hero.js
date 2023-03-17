@@ -23,7 +23,7 @@ const Hero = () => {
               data-aos-delay='600'
             >{subtitle}</p>
             {/* btn & comp text*/}
-            <div className='flex items-center justify-center max-w-sm lg:max-w-full mx-auto lg:mx-0 gap-x-2 lg:gap-x-6'
+            <div className='flex items-center justify-between max-w-sm lg:max-w-full mx-auto lg:mx-0 gap-x-2 lg:gap-x-6'
               data-aos='fade-down'
               data-aos-delay='700'
             >
