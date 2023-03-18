@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 *{
-  outline: 1px solid gray;
+  outline: 1px solid grey;
 }
 
 @layer base {
@@ -16,7 +16,8 @@
   h4,
   h5,
   h6 {
-    @apply text-dark;
+    @apply text-[#541e8f];
+    /* @apply text-dark; */
   }
   .title,
   .section-title {

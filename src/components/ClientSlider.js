@@ -37,14 +37,18 @@ const ClientSlider = ({clients}) => {
             className='border-t-[10px] rounded-t-[12px]'
           >
             {/* card */}
-            <div className='w-full mx-auto lg:max-w-[300px] xl:max-w-[350px] h-[250px] rounded-[12px] border border-grey py-6 px-[30px]'>
+            <div className='w-full mx-auto lg:max-w-[300px] xl:max-w-[350px] min-h-[500px] rounded-[12px] border border-grey py-6 px-[30px]'>
             {/* client message */}
-            <div className='mb-[30px]'>{message}</div>
+            <div className='mb-[30px] text-center min-h-100 w-full'>{message}</div>
             {/* client name, img & position */}
-            <div className='flex gap-x-[10px]'>
-              <img src={image} alt="" />
-              <div className='font-bold'>{name}</div>
+              <div className='flex gap-x-[10px] max-w-50 max-h-50'>
+                <div className='rounded-full w-[50px] h-[50px] overflow-hidden' style={{borderRadius: '50%', width: '50px', height: '50px'}}>
+                  <img src={image} alt="" className='rounded-full object-cover' />
+                </div>
+                <div className='flex flex-col gap-y-2'>
+                <div className='font-bold'>{name}</div>
               <div className='text-light'>{position}</div>
+              </div>
             </div>
           </div>
           </SwiperSlide>

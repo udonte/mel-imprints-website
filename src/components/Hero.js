@@ -1,6 +1,6 @@
 import React from 'react';
 import { hero } from '../data'
-import { AiOutlinePhone } from 'react-icons/ai'
+import {  HiOutlinePhone } from 'react-icons/hi'
 
 
 
@@ -23,19 +23,19 @@ const Hero = () => {
               data-aos-delay='600'
             >{subtitle}</p>
             {/* btn & comp text*/}
-            <div className='flex items-center justify-between max-w-sm lg:max-w-full mx-auto lg:mx-0 gap-x-2 lg:gap-x-6'
+            <div className='flex items-center max-w-sm lg:max-w-full mx-auto lg:mx-0 gap-x-2 lg:gap-x-6'
               data-aos='fade-down'
               data-aos-delay='700'
             >
               <button className='btn btn-md lg:btn-lg btn-accent flex justify-center items-center lg:gap-x-4'>
+                 <HiOutlinePhone />
                 {btnText}
-                <AiOutlinePhone />
               </button>
               <span className='text-light lg:lead lg:mb-0'>{compText}</span>
             </div>
           </div>
           {/* image */}
-          <div className='flex-1'
+          <div className=' flex item-center justify-end flex-1 bg-accent py-10 rounded-bl-[20rem]'
             data-aos='fade-up'
             data-aos-delay='800'
           >

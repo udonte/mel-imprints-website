@@ -23,7 +23,7 @@ const Header = () => {
     });
   });
   return (
-    <header className={`${isActive ? 'lg:top-0 bg-white shadow-2xl' : 'lg:top-[60px]'} py-6 lg:py-4 fixed w-full transition-all z-10`}>
+    <header className={`${isActive ? 'lg:top-0 bg-white shadow-2xl' : 'lg:top-[60px]'} py-6 lg:py-4 fixed w-full transition-all z-10 border-b-2 border-light-100`}>
       <div className='container mx-auto flex justify-between items-center'>
         {/* logo */}
         <a href="#/" data-aos='fade-down' data-aos-delay='1000'>
@@ -45,7 +45,7 @@ const Header = () => {
         <div
           className={`${
             mobileNav ? 'left-0' : '-left-full'
-          } fixed top-0 bottom-[50%] w-[50vw] lg:hidden transition-all bg-purple-800 rounded-br-[10px]`}
+          } fixed top-0 bottom-[50%] w-[50vw] lg:hidden transition-all rounded-br-[10px]`}
         >
           <MobileNav />
         </div>

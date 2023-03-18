@@ -3,6 +3,14 @@ module.exports = {
   theme: {
     fontFamily: {
       primary: 'Hind Siliguri',
+      sans: [
+          '"Inter"',
+          'system-ui',
+          '-apple-system',
+          'BlinkMacSystemFont',
+          '"Segoe UI"',
+          'Roboto',
+      ]
     },
     container: {
       padding: {
@@ -23,6 +31,22 @@ module.exports = {
         accent: '#FF7235',
         accentHover: '#e05216',
         grey: '#F5F5F5',
+      },
+      fontFamily: {
+        sans: [
+          '"Inter"',
+          'system-ui',
+          '-apple-system',
+          'BlinkMacSystemFont',
+          '"Segoe UI"',
+          'Roboto',
+          '"Helvetica Neue"',
+          'Arial',
+          '"Noto Sans"',
+          'sans-serif',
+          '"Apple Color Emoji"',
+          '"Segoe UI Emoji"',
+        ]
       },
       backgroundImage: {
         overview: "url('/src/assets/img/overview/bg.svg')",
