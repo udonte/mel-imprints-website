@@ -5,25 +5,20 @@ const Feature3 = () => {
   //destructure features
   const { feature3 } = features;
   //destructure features2
-  const { pretitle, title, subtitle, btnLink, btnIcon, image } = feature3;
+  const { pretitle, title, subtitle, image } = feature3;
   return (
     <section className='section'>
       <div className="container mx-auto">
         <div className='flex flex-col lg:flex-row lg:items-center lg:gap-x-[30px]'>
-            <div>
-            {/* image*/}
-            <div className='flex-1 order-2 lg:order-1' data-aos='fade-right' data-aos-offset='300'>
-              <img src={image} alt="" />
-            </div>
-          </div>
           {/* text */}
-            <div className='flex-1 order-1 lg:order-2' data-aos='fade-left' data-aos-offset='400'>
-              <div className='pretitle'>{pretitle}</div>
+            <div className='flex-1' data-aos='fade-right' data-aos-offset='400'>
+              <div className='pretitle text-accent'>{pretitle}</div>
               <h2 className='title'>{title}</h2>
               <p className='lead'>{subtitle}</p>
-              <button className='btn-link flex items-center gap-x-3 hover:gap-x-5 transition-all'>
-                {btnLink} <img src={btnIcon} alt="" />
-              </button>
+          </div>
+          {/* image*/}
+            <div className='flex-1' data-aos='fade-left' data-aos-offset='300'>
+              <img src={image} alt="" style={{width: '500px'}} />
             </div>
         </div>
       </div>

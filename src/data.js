@@ -98,7 +98,7 @@ export const overview = {
 export const features = {
   feature1: {
     pretitle: 'About Us',
-    title: 'Your needs, our hands',
+    title: 'Your needs, our hands.',
     subtitle:
       'We are the landmark of sustainable printing service, using topclass and advance contemporary digital printing technology to produce high quality print marketing materials tailored to help Entreprenuers promote their brand, products and services to a wider audience. These print items are unique because they serve as branding and packaging materials, conveys the brand message to our target audience, provoke buying decision and create a positive impression.',
     btnLink: 'Learn more',
@@ -106,8 +106,8 @@ export const features = {
     image: Feature1Img,
   },
   feature2: {
-    pretitle: 'Vision and Mission',
-    title: 'Lead by excellence',
+    pretitle: 'Our Vision and Mission',
+    title: 'Lead by excellence.',
     subtitle:
       'Our vision is to be recognized as the leading printing agency for entreprenuers in Nigeria. We also nurture a strong mission of delighting our clients with quality service delivery, using carefully sourced quality materials and contemporary digital printing technology executed by highly trained professionals.',
     btnLink: 'Learn more',
@@ -116,7 +116,7 @@ export const features = {
   },
   feature3: {
     pretitle: 'The Mel-Imprints Mantra',
-    title: 'We breathe expertise',
+    title: 'We breathe expertise.',
     subtitle:
       'For brands seeking to grow and sustain their visibility, create awareness, increase sales and build a larger customer base, Mel-Imprints offers a wide range of print marketing materials tailored to help promote and market their brand, product and services to a wider audience thereby gaining a competitive edge.',
     btnLink: 'Learn more',
@@ -128,7 +128,7 @@ export const features = {
 export const product = {
   title: 'The Products we have delivered.',
   subtitle:
-    'A visual journey of our excellence: Browse our impressive collection of printed works that showcases our expertise and creativity.',
+    'A visual journey of our excellence: Checkout our impressive collection of perfectly delivered printables, that showcases our expertise and creativity.',
   cards: [
     {
       icon: CardIconImg1,
@@ -233,6 +233,7 @@ export const pricing = {
 
 export const testimonials = {
   title: 'What our clients are saying about us',
+  subtitle: 'TESTIMONIALS',
   clients: [
     {
       message:
@@ -272,7 +273,7 @@ export const testimonials = {
       image: AvatarImg5,
       name: 'Sunday Olowolafe Esq.',
       position: 'Legal practitioner, Olowolafe Chambers',
-      borderColor: '#BB7259',
+      borderColor: '##FFBE21',
     },
     {
       message:
@@ -280,7 +281,7 @@ export const testimonials = {
       image: AvatarImg6,
       name: 'Miss Happiness',
       position: 'CEO, De Food Hauz',
-      borderColor: '#BB7259',
+      borderColor: '#FF7235',
     },
     {
       message:

@@ -18,7 +18,7 @@ const Product = () => {
             data-aos-delay='300'>{title}
           </h2>
           <p
-            className='lead lg:max-w-[350px] text-center lg:text-left'
+            className='lead lg:max-w-[350px] text-center lg:text-left text-accent'
             data-aos='fade-up'
             data-aos-offset='400'
             data-aos-delay='400'>{subtitle}
