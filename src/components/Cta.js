@@ -2,7 +2,7 @@ import React from 'react';
 //import data
 import { cta } from '../data';
 //import icons
-import {HiOutlinePhone } from 'react-icons/hi';
+import whatsapp from '../assets/img/cta/whatsapp.png';
 
 const Cta = () => {
   //destructure cta data
@@ -33,14 +33,13 @@ const Cta = () => {
             data-aos='zoom-out-right'
             data-aos-delay='700'
             alt="" />
-          <button
-            className='btn btn-md btn-white mt-[40px] lg:text-[22px] gap-x-[10px] mx-auto'
+          <div
+            className='mt-[40px] mx-auto w-[100px]'
             data-aos='fade-up'
             data-aos-delay='400'
           >
-            <HiOutlinePhone />
-            {btnText}
-          </button>
+            <img src={whatsapp} style={{width: '100px', cursor: 'pointer'}} alt="" />
+          </div>
           <img
             className='hidden xl:flex'
             src={img2}

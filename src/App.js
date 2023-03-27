@@ -15,7 +15,7 @@ import Feature1 from './components/Feature1';
 import Feature2 from './components/Feature2';
 import Feature3 from './components/Feature3';
 import Product from './components/Product';
-// import Pricing from './components/Pricing';
+import Pricing from './components/Pricing';
 import Testimonials from './components/Testimonials';
 import Cta from './components/Cta';
 import Footer from './components/Footer';
@@ -37,7 +37,7 @@ const App = () => {
       <Feature2 />
       <Feature3 />
       <Product />
-      {/* <Pricing /> */}
+      <Pricing />
       <Testimonials />
       <Cta />
       <Footer />

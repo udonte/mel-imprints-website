@@ -2,9 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-*{
-  outline: 1px solid grey;
-}
 
 @layer base {
   body {

@@ -17,22 +17,7 @@ const Footer = () => {
           </div>
           {/* list 1 */}
           <div data-aos='fade-up' data-aos-offset='200' data-aos-delay='500'>
-            <div className='text-2xl uppercase font-medium mb-6'>Links</div>
-            <ul className='flex flex-col gap-y-3'>
-              {links.map((item, index) => {
-                //destructure item
-                const { href, name } = item;
-                return (
-                  <li key={index}>
-                    <a className='font-medium hover:text-accent transition' href={href}>{name}</a>
-                  </li>
-                );
-              })}
-            </ul>
-          </div>
-          {/* list 2 */}
-          <div data-aos='fade-up' data-aos-offset='200' data-aos-delay='700'>
-            <div className='text-2xl uppercase font-medium mb-6'>Legal</div>
+            <div className='text-2xl uppercase font-medium mb-6 text-[#541e8f]'>Links</div>
             <ul className='flex flex-col gap-y-3'>
               {links.map((item, index) => {
                 //destructure item
@@ -47,7 +32,7 @@ const Footer = () => {
           </div>
           {/* newsletter */}
           <div data-aos='fade-up' data-aos-offset='200' data-aos-delay='900'>
-            <div className='text-2xl uppercase font-medium mb-6'>{newsletter.title}
+            <div className='text-2xl uppercase font-medium mb-6 text-[#541e8f]'>{newsletter.title}
             </div>
             <div className='text-xl text-light mb-[18px]'>
               {newsletter.subtitle}

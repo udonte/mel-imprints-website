@@ -12,7 +12,7 @@ const Brands = () => {
         //destructure item
         const { image, delay } = item;
         return (
-          <div key={index} data-aos='fade-up' data-aos-delay={delay} className='flex-1'>
+          <div key={index} data-aos='fade-up' data-aos-delay={delay} className='flex-1 shadow-2xl p-6'>
             {/* brand img */}
             <img src={image} alt="company" style={{width:'15rem'}} />
           </div>

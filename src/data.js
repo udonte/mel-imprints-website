@@ -15,9 +15,9 @@ import ArrowRightImg from '../src/assets/img/features/arrow-right.svg';
 import CardIconImg1 from '../src/assets/img/product/cards/icon1.svg';
 import CardIconImg2 from '../src/assets/img/product/cards/icon2.svg';
 import CardIconImg3 from '../src/assets/img/product/cards/icon3.svg';
-import PricingIcon1 from '../src/assets/img/pricing/icon1.svg';
-import PricingIcon2 from '../src/assets/img/pricing/icon2.svg';
-import PricingIcon3 from '../src/assets/img/pricing/icon3.svg';
+import PricingIcon1 from '../src/assets/img/pricing/icon1.png';
+import PricingIcon2 from '../src/assets/img/pricing/icon2.png';
+import PricingIcon3 from '../src/assets/img/pricing/icon3.png';
 import AvatarImg1 from '../src/assets/img/testimonial/avatar1.jpg';
 import AvatarImg2 from '../src/assets/img/testimonial/avatar2.jpg';
 import AvatarImg3 from '../src/assets/img/testimonial/avatar3.jpg';
@@ -27,9 +27,9 @@ import AvatarImg6 from '../src/assets/img/testimonial/avatar6.jpg';
 import AvatarImg7 from '../src/assets/img/testimonial/avatar7.jpg';
 import CtaImg1 from '../src/assets/img/cta/image1.svg';
 import CtaImg2 from '../src/assets/img/cta/image2.svg';
-import FacebookIcon from '../src/assets/img/copyright/facebook.svg';
-import TwitterIcon from '../src/assets/img/copyright/twitter.svg';
-import LinkedinIcon from '../src/assets/img/copyright/linkedin.svg';
+import FacebookIcon from '../src/assets/img/copyright/facebook.png';
+import TwitterIcon from '../src/assets/img/copyright/twitter.png';
+import LinkedinIcon from '../src/assets/img/copyright/instagram.png';
 //product section
 import product1 from '../src/assets/img/product/merches/product (1).jpeg';
 import product2 from '../src/assets/img/product/merches/product (1).jpg';
@@ -81,16 +81,16 @@ export const overview = {
       delay: 500,
     },
     {
-      image: LatejImg,
+      image: LushImg,
       delay: 600,
     },
     {
-      image: LawImg,
+      image: LatejImg,
       delay: 700,
     },
     {
-      image: LushImg,
-      delay: 700,
+      image: LawImg,
+      delay: 800,
     },
   ],
 };
@@ -187,52 +187,31 @@ export const product = {
 };
 
 export const pricing = {
-  title: 'Choose your flexible plan.',
+  title: 'Our Core Values.',
   cards: [
     {
       icon: PricingIcon1,
-      title: 'Starter Plan',
-      services: [
-        { name: 'Store unlimited data' },
-        { name: 'Export to pdf, xls, csv' },
-        { name: 'Cloud server support' },
-      ],
-      price: '$9.99',
-      userAmount: 'up to 3 user + 1.99 per user',
-      btnText: 'Get this',
+      title: 'Prompt Delivery',
+      name: 'Your requested order gets to you before on or before any agreed time or date of delivery.',
       delay: 300,
     },
     {
       icon: PricingIcon2,
-      title: 'Silver Plan',
-      services: [
-        { name: 'Store unlimited data' },
-        { name: 'Export to pdf, xls, csv' },
-        { name: 'Cloud server support' },
-      ],
-      price: '$19.99',
-      userAmount: 'up to 3 user + 1.99 per user',
-      btnText: 'Get this',
-      delay: 600,
+      title: 'Quality Assurance',
+      name: 'Only the best of hands, machines and materials are involved in bringing your orders to life.',
+      delay: 400,
     },
     {
       icon: PricingIcon3,
-      title: 'Diamond Plan',
-      services: [
-        { name: 'Store unlimited data' },
-        { name: 'Export to pdf, xls, csv' },
-        { name: 'Cloud server support' },
-      ],
-      price: '$29.99',
-      userAmount: 'up to 3 user + 1.99 per user',
-      btnText: 'Get this',
-      delay: 900,
+      title: 'Affordable Pricing',
+      name: 'Our services are adequately priced to ensure you get value for your money for every delivery.',
+      delay: 500,
     },
   ],
 };
 
 export const testimonials = {
-  title: 'What our clients are saying about us',
+  title: 'What our clients are saying about us.',
   subtitle: 'TESTIMONIALS',
   clients: [
     {
@@ -307,10 +286,9 @@ export const footer = {
   links: [
     { name: 'Home', href: '/' },
     { name: 'About us', href: '/' },
-    { name: 'Careers', href: '/' },
-    { name: 'Pricing', href: '/' },
-    { name: 'Features', href: '/' },
-    { name: 'Blog', href: '/' },
+    { name: 'Services', href: '/' },
+    { name: 'Contact', href: '/' },
+    { name: 'Shop', href: '/' },
   ],
   legal: [
     { name: 'Terms of use', href: '/' },
@@ -338,7 +316,7 @@ export const copyright = {
     name: 'Contact us',
     href: '/',
   },
-  copyText: 'Copyright @ 2022 xpence',
+  copyText: 'Copyright @ 2023 Mel-Imprints',
   social: [
     { icon: FacebookIcon, href: '/' },
     { icon: TwitterIcon, href: '/' },

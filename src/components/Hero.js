@@ -35,7 +35,7 @@ const Hero = () => {
             </div>
           </div>
           {/* image */}
-          <div className=' flex item-center justify-end flex-1 bg-accent py-10 rounded-bl-[20rem]'
+          <div className='shadow-2xl flex item-center justify-end flex-1 bg-accent py-10 rounded-bl-[20rem]'
             data-aos='fade-up'
             data-aos-delay='800'
           >
