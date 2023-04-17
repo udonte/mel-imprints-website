@@ -7,7 +7,7 @@ const Feature1 = () => {
   //destructure features1
   const { pretitle, title, subtitle,  image } = feature1;
   return (
-    <section className='section'>
+    <section className='section' id='about'>
       <div className="container mx-auto">
         <div className='flex flex-col lg:flex-row lg:items-center lg:gap-x-[30px]'>
             {/* text */}

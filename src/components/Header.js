@@ -34,13 +34,16 @@ const Header = () => {
           <Nav />
         </div>
         {/* cta button - initially hidden, show on desktop */}
-        <button className='btn btn-sm btn-outline hidden lg:flex' data-aos='fade-down' data-aos-delay='1400'>{btnText}</button>
+        <a href="tel:2348141667571">
+          <button className='btn btn-sm btn-outline hidden lg:flex' data-aos='fade-down' data-aos-delay='1400'>{btnText}</button>
+          </a>
         {/* mobile nav trigger btn -hidden on desktop */}
+
         <button
           className='lg:hidden'
           onClick={() => setMobileNav(!mobileNav)}>
           {mobileNav ? <HiOutlineX className='text-3xl text-accent' /> : <HiMenuAlt4 className='text-3xl text-accent' />}
-        </button>
+          </button>
         {/* mobile nav, hidden on desktop */}
         <div
           className={`${

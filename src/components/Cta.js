@@ -6,9 +6,9 @@ import whatsapp from '../assets/img/cta/whatsapp.png';
 
 const Cta = () => {
   //destructure cta data
-  const { title, subtitle, btnText, img1, img2} = cta;
+  const { title, subtitle, img1, img2} = cta;
   return (
-    <section className='section bg-cta bg-cover bg-left-top'>
+    <section className='section bg-cta bg-cover bg-left-top' id='cta'>
       <div className='max-w-[1340px] mx-auto px-[25px]'>
         {/* text */}
         <div className='max-w-[920px] mx-auto text-center'>
@@ -38,7 +38,7 @@ const Cta = () => {
             data-aos='fade-up'
             data-aos-delay='400'
           >
-            <img src={whatsapp} style={{width: '100px', cursor: 'pointer'}} alt="" />
+            <a href='https://wa.me/2348141667571' target='_blank' rel="noopener noreferrer"><img src={whatsapp} style={{ width: '100px', cursor: 'pointer' }} alt="" /></a>
           </div>
           <img
             className='hidden xl:flex'

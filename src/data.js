@@ -50,10 +50,10 @@ export const header = {
 
 export const nav = [
   { name: '', href: '/' },
-  { name: 'About', href: '/' },
-  { name: 'Services', href: '/' },
-  { name: 'Contact', href: '/' },
-  { name: 'Shop', href: '/' },
+  { name: 'About', href: '#about' },
+  { name: 'Services', href: '#section'},
+  { name: 'Contact', href: '#cta' },
+  { name: 'Shop', href: 'https://www.melimprints.com.ng' },
 ];
 
 export const hero = {
@@ -284,11 +284,11 @@ export const cta = {
 export const footer = {
   logo: LogoImg,
   links: [
-    { name: 'Home', href: '/' },
-    { name: 'About us', href: '/' },
-    { name: 'Services', href: '/' },
-    { name: 'Contact', href: '/' },
-    { name: 'Shop', href: '/' },
+    { name: '', href: '/' },
+    { name: 'About', href: '#about' },
+    { name: 'Services', href: '#section'},
+    { name: 'Contact', href: '#cta' },
+    { name: 'Shop', href: 'https://www.melimprints.com.ng' },
   ],
   legal: [
     { name: 'Terms of use', href: '/' },
