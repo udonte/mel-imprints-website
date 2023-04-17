@@ -17,14 +17,14 @@ const Footer = () => {
           </div>
           {/* list 1 */}
           <div data-aos='fade-up' data-aos-offset='200' data-aos-delay='500'>
-            <div className='text-2xl uppercase font-medium mb-6 text-[#541e8f]'>Links</div>
+            <div className='text-2xl uppercase font-semibold mb-6 text-[#541e8f]'>Links</div>
             <ul className='flex flex-col gap-y-3'>
               {links.map((item, index) => {
                 //destructure item
                 const { href, name } = item;
                 return (
                   <li key={index}>
-                    <a className='font-medium hover:text-accent transition' href={href}>{name}</a>
+                    <a className='font-medium hover:text-accent transition text-[#541e8f]' href={href}>{name}</a>
                   </li>
                 );
               })}
@@ -32,7 +32,7 @@ const Footer = () => {
           </div>
           {/* newsletter */}
           <div data-aos='fade-up' data-aos-offset='200' data-aos-delay='900'>
-            <div className='text-2xl uppercase font-medium mb-6 text-[#541e8f]'>{newsletter.title}
+            <div className='text-2xl uppercase  mb-6 font-semibold text-[#541e8f]'>{newsletter.title}
             </div>
             <div className='text-xl text-light mb-[18px]'>
               {newsletter.subtitle}

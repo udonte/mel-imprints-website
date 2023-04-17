@@ -9,11 +9,11 @@ const Copyright = () => {
     <div className='flex flex-col items-center gap-y-2 lg:flex-row lg:justify-between' data-aos='fade-up' data-aos-offset='0' data-aos-delay='200'>
       {/* links */}
       <div className='flex gap-x-6'>
-        <a href={link1.href} className='hover:text-accent transition'>{link1.name}</a>
-        <a href={link2.href} className='hover:text-accent transition'>{link2.name}</a>
+        <a href={link1.href} className='hover:text-accent transition text-[#541e8f] font-semibold'>{link1.name}</a>
+        <a href={link2.href} className='hover:text-accent transition text-[#541e8f] font-semibold'>{link2.name}</a>
       </div>
       {/* copyright text */}
-      <div>{copyText}</div>
+      <div className='text-[#541e8f] font-semibold'>{copyText}</div>
       {/* social icons */}
       <ul className='flex gap-x-[12px]'>
         {social.map((socialIcon, index) => {
